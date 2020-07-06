@@ -1,4 +1,4 @@
-public class EmptySequence extends Sequence {
+public class EmptySequence<T> extends Sequence<T> {
 
 	@Override
 	public int getLength() { return 0; }
